@@ -1,0 +1,11 @@
+.ReviewListItem {
+    margin: 20px;
+}
+.Author {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.Review {
+    font-style: italic;
+}

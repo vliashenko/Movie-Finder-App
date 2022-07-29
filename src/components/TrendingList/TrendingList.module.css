@@ -1,0 +1,13 @@
+.Title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.MovieList {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+}

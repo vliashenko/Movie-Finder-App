@@ -1,0 +1,61 @@
+.Container {
+
+}
+
+.Wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.SubWrapper {
+    width: 900px;
+}
+
+.ButtonBack {
+    margin: 20px 0;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 0px 2px 4px black;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(223, 90, 90);
+    transition: all 300ms ease-in-out;
+    cursor: pointer;
+}
+
+.ButtonBack:hover {
+    transform: scale(1.10);
+}
+
+.ContainerImg {
+    width: 300px;
+    height: 400px;
+}
+.Img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.Title {
+    margin: 0;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.Info {
+    margin: 30px 0;
+}
+
+.SubTitle {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 30px 0;
+}
+
+.Genres {
+    margin: 0 4px;
+}

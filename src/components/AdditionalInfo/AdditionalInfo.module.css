@@ -1,0 +1,19 @@
+.AdditionalInfo {
+    margin: 40px 0;
+}
+
+.NavLink {
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 10px;
+    text-decoration: underline;
+    color: black;
+}
+
+.ActivatedLink {
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 10px;
+    text-decoration: underline;
+    color: red;
+}

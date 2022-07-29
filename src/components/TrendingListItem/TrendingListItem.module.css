@@ -1,0 +1,46 @@
+.Item {
+    border-radius: 10px;
+    box-shadow: 0px 2px 40px rgb(221, 221, 221);
+    height: 350px;
+    width: 250px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 300ms ease-in-out;
+}
+
+.Item:hover {
+    transform: scale(1.10);
+    box-shadow: 0px 2px 40px rgb(154, 154, 154);
+}
+
+.Link {
+    width: 200px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.Container {
+    width: 180px;
+    height: 260px;
+}
+
+.Img {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Title {
+    text-align: center;
+    padding: 4px 0;
+    margin: 40px;
+    margin: 0;
+    color: black;
+}
